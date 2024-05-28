@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>Mechita</defName>
+    <label>mechita</label>
+    <description>Mechita</description>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>80</WorkToBuild>
+      <Beauty>140</Beauty>
+      <MeditationFocusStrength>0.15</MeditationFocusStrength>
+    </statBases>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <costStuffCount>15</costStuffCount>
+    <uiIconScale>0.8</uiIconScale>
+    <uiIconOffset>(0, 0.04)</uiIconOffset>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Mechita</texPath>
+      <drawSize>(1,1.5)</drawSize>
+      <drawOffset>(0,0,0.05)</drawOffset>
+    </graphicData>
+    <designationCategory>Misc</designationCategory>
+    <comps>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Artistic</li>
+        </focusTypes>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

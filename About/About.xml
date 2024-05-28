@@ -1,0 +1,9 @@
+<ModMetaData>
+    <name>What a Beauty</name>
+<description>agrega una maravillosa obra de arte para mejorar tu partida</description>
+    <author>PoisonSyringe</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>PoisonSyringe.What a Beauty</packageId>
+</ModMetaData>
